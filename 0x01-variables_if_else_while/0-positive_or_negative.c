@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * Main- Entry point
+ * main- Prints a random number and states whether it is positive, negative,  or zero.
  *
  * Returrn: Always 0
  */
