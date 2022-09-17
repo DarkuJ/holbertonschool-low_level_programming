@@ -2,10 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 
-//**
- * main- Prints a random numbers even odd or zero
+/**
+ * main - prints random number even,odd or zero
  *
- * Returrn: Always 0
+ * Return: Always 0
  */
 
 int main(void)
