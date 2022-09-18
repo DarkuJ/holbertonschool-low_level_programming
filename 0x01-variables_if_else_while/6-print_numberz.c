@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints numbers
+ * main - prints numberz
  *
  * Return: Always 0
  */
@@ -11,8 +11,8 @@ int main(void)
 
 	for (base10 = 0; base10 < 10; base10++)
 	{
-		printf("%i", base10);
+		putchar((base10 % 10) + '0');
 	}
-	printf("\n");
+	putchar('\n');
 	return (0);
 }
