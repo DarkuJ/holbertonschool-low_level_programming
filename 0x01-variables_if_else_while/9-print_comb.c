@@ -4,6 +4,7 @@
  *
  * Return: Always 0
  */
+
 int main(void)
 {
 	int num;
@@ -13,7 +14,7 @@ int main(void)
 		putchar((num % 10) + '0');
 		{
 			putchar(44);
-			putchar('');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
