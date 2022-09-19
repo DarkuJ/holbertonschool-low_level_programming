@@ -1,4 +1,4 @@
-#includ "main.h"
+#include "main.h"
 /**
  * int _isalpha
  * Description: checks if alpha or not
