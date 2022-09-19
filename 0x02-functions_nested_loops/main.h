@@ -1,4 +1,4 @@
-#includ <unistd.h>
+#include <unistd.h>
 
 /**
  * _putchar - writes the charcter c to stdout
