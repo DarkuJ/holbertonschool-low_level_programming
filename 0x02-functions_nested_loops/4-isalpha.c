@@ -1,11 +1,9 @@
 #include "main.h"
 /**
- * int _isalpha - program startup
- *
- * Description: Uses _isalpha to find upper or lowercase
- * and returns `1` if `c` is lowercase or uppercase
- * and returns `0` otherwise
- * Return: return (0) exits program successfully, return (1) throws an error
+ * _isalpha - Entry point
+ * @c: the integer value it recieives
+ * Description: checks if alphabet
+ * Return: 1 if true. 0 if false
  */
 
 int _isalpha(int c)
