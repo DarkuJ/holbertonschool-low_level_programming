@@ -2,10 +2,10 @@
 
 /**
  * print_numbers - prints 0-9 and new line
- * Description: Uses headers to link and a nested loops to achieve goal 
- * Return: void. no return
+ *
+ * Description: Uses headers to link and a nested loops to achieve gol
+ * Return: Void. no return.
  */
-
 void print_numbers(void)
 {
 	int i = 0;
