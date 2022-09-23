@@ -1,9 +1,9 @@
-#include "main"
+#include "main.h"
 
 /**
  * print_numbers - prints 0-9 and new line
  * Description: Uses headers to link and a nested loops to achieve goal 
- * Return: void.
+ * Return: void. no return
  */
 
 void print_numbers(void)
