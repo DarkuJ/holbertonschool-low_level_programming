@@ -4,10 +4,10 @@
  * _strcat - prototype for two strings
  *@dest: char to check
  *@src: char  to  check
- * Return: 0 if success
+ * Return: dest
  */
 
-char *_strcat(char *dest, char *src);
+char *_strcat(char *dest, char *src)
 {
 	int i, j;
 
