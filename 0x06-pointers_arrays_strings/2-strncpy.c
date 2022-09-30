@@ -2,12 +2,14 @@
 
 /**
  * _strncpy - prototype for  function
- *@n : an int
- *
+ *@dest: a buffer
+ *@src: source
+ *@n: max number of bytes
+ *Description: copies two strings to dest
  * Return: dest
  */
 
-char *_strncpy(char *dest, char *src, int n);
+char *_strncpy(char *dest, char *src, int n)
 {
 	size_t  i;
 
