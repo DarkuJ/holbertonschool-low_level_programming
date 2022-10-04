@@ -4,7 +4,7 @@
  * leet - make leet speak like a nerd
  * @n: input value
  *
- * Return: n
+ * Return: n value
  */
 
 char *leet(char *)
