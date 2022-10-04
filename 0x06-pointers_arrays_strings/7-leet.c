@@ -2,26 +2,27 @@
 
 /**
  * leet - make leet speak like a nerd
- * @n: input value
+ * @s: string variable
  *
- * Return: n value
+ * Return: s value
  */
 
 char *leet(char *)
 {
-	int i, j;
-	char s1[] = "aAeEoOtTlL";
-	char s2[] = "4433007711";
+	int i;
+	int n;
+	char alpha[] = "aAeEoOtTlL";
+	char num[] = "4433007711";
 
-	for (i = 0; n[i] != '\0'; i++)
+	for (i = 0; s[i]; i++)
 	{
-		for (j = 0; j < 10; j++)
+		for (n = 0; alpha[n]; n++)
 		{
-			if (n[i] == s1[j])
+			if (s[i] == alpha[n])
 			{
-				n[i] = s2[j];
+				s[i] = num[n];
 			}
 		}
 	}
-	return (n);
+	return (s);
 }
