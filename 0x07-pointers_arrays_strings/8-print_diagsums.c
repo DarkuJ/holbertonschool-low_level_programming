@@ -5,7 +5,7 @@
  * print_diagsums - prints the sum of two diagnals of a square matrix int
  * @a: variable used
  * @size: size of square given
- * 
+ *
  * Return: 0 if success
  */
 
