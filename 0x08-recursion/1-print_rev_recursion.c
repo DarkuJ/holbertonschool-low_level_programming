@@ -13,5 +13,5 @@ void _print_rev_recursion(char *s)
 	{
 		return;
 	}
-	reverse (0)
+	reverse (0);
 }
