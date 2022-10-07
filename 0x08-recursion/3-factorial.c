@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * factorial - the prototype to ouse
- * @n: an int
+ *factorial - the prototype to ouse
+ *@n: an int
  *
- * Return: 0
+ *Return: 0
  */
 
-int factorial (int n)
+int factorial(int n)
 {
 	if  (n == 0)
 	{
